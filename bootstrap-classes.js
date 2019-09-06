@@ -8,11 +8,7 @@ Bootstrap3.Grid = class {
     
 }
 
-Bootstrap3.Grid.Columns = class {
-    
-}
-
-Bootstrap3.Grid.Columns.ExtraSmall = class {
+Bootstrap3.Grid.ExtraSmallColumns = class {
     static XS1 = "col-xs-1";
     static XS2 = "col-xs-2";
     static XS3 = "col-xs-3";
@@ -27,7 +23,7 @@ Bootstrap3.Grid.Columns.ExtraSmall = class {
     static XS12 = "col-xs-12";
 }
 
-Bootstrap3.Grid.Columns.Small = class {
+Bootstrap3.Grid.SmallColumns = class {
     static SM1 = "col-sm-1";
     static SM2 = "col-sm-2";
     static SM3 = "col-sm-3";
@@ -42,7 +38,7 @@ Bootstrap3.Grid.Columns.Small = class {
     static SM12 = "col-sm-12";
 }
 
-Bootstrap3.Grid.Columns.Medium = class {
+Bootstrap3.Grid.MediumColumns = class {
     static MD1 = "col-md-1";
     static MD2 = "col-md-2";
     static MD3 = "col-md-3";
@@ -55,6 +51,21 @@ Bootstrap3.Grid.Columns.Medium = class {
     static MD10 = "col-md-10";
     static MD11 = "col-md-11";
     static MD12 = "col-md-12";
+}
+
+Bootstrap3.Grid.LargeColumns = class {
+    static LG1 = "col-lg-1";
+    static LG2 = "col-lg-2";
+    static LG3 = "col-lg-3";
+    static LG4 = "col-lg-4";
+    static LG5 = "col-lg-5";
+    static LG6 = "col-lg-6";
+    static LG7 = "col-lg-7";
+    static LG8 = "col-lg-8";
+    static LG9 = "col-lg-9";
+    static LG10 = "col-lg-10";
+    static LG11 = "col-lg-11";
+    static LG12 = "col-lg-12";
 }
 
 Bootstrap3.Form = class {
