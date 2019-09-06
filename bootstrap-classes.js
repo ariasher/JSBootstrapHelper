@@ -1,26 +1,37 @@
 class Bootstrap3 {
     static Container = "container";
     static ContainerFluid = "container-fluid";
+    static ClearFix = "clearfix";
+    static Tooltip = "tooltip";
+    static Popover = "popover";
 }
 
 Bootstrap3.Grid = class {
     static Row = "row";
-    
+
 }
 
 Bootstrap3.Grid.ExtraSmallColumns = class {
-    static XS1 = "col-xs-1";
-    static XS2 = "col-xs-2";
-    static XS3 = "col-xs-3";
-    static XS4 = "col-xs-4";
-    static XS5 = "col-xs-5";
-    static XS6 = "col-xs-6";
-    static XS7 = "col-xs-7";
-    static XS8 = "col-xs-8";
-    static XS9 = "col-xs-9";
-    static XS10 = "col-xs-10";
-    static XS11 = "col-xs-11";
-    static XS12 = "col-xs-12";
+
+    static Offset = class {
+
+    }
+
+    static Columns = class {
+        static XS1 = "col-xs-1";
+        static XS2 = "col-xs-2";
+        static XS3 = "col-xs-3";
+        static XS4 = "col-xs-4";
+        static XS5 = "col-xs-5";
+        static XS6 = "col-xs-6";
+        static XS7 = "col-xs-7";
+        static XS8 = "col-xs-8";
+        static XS9 = "col-xs-9";
+        static XS10 = "col-xs-10";
+        static XS11 = "col-xs-11";
+        static XS12 = "col-xs-12";
+    }
+
 }
 
 Bootstrap3.Grid.SmallColumns = class {
@@ -70,4 +81,60 @@ Bootstrap3.Grid.LargeColumns = class {
 
 Bootstrap3.Form = class {
     static FormControl = "form-control";
+}
+
+
+
+
+
+
+
+
+Bootstrap3.Typography = class {
+
+    static Casing = class {
+        static TextCapitalize = "text-capitalize";
+        static TextUppercase = "text-uppercase";
+        static TextLowercase = "text-lowercase";
+    }
+
+    static Color = class {
+        static TextWarning = "text-warning";
+        static TextSuccess = "text-success";
+        static TextPrimary = "text-primary";
+        static TextInfo = "text-info";
+        static TextDanger = "text-danger";
+    }
+
+    static Alignment = class {
+        static TextRight = "text-right";
+        static TextLeft = "text-left";
+        static TextJustify = "text-justify";
+        static TextCenter = "text-center";
+    }
+
+    static Heading = class {
+        static H1 = "h1";
+        static H2 = "h2";
+        static H3 = "h3";
+        static H4 = "h4";
+        static H5 = "h5";
+        static H6 = "h6";
+    }
+
+    static TextNoWrap = "text-nowrap";
+    static TextMuted = "text-muted";
+    static TextHide = "text-hide";
+    static Small = "small";
+    static Mark = "mark";
+    static ListUnstyled = "list-unstyled";
+    static Lead = "lead";
+    static Initialism = "initialism";
+    static DLHorizontal = "dl-horizontal";
+}
+
+Bootstrap3.Wells = class {
+    static Well = "well";
+    static WellLarge = "well-lg";
+    static WellSmall = "well-sm";
 }
