@@ -1,10 +1,31 @@
 class Bootstrap3 {
-    static Container = "container";
-    static ContainerFluid = "container-fluid";
-    static ClearFix = "clearfix";
-    static Tooltip = "tooltip";
-    static Popover = "popover";
+    static AFFIX = "affix";
+    static BADGE = "badge";
+    static CLEARFIX = "clearfix";
+    static COLLAPSE = "collapse";
+    static COLLAPSING = "collapsing"
+    static CONTAINER = "container";
+    static CONTAINER_FLUID = "container-fluid";
+    static GLYPHICON = "glyphicon";
+    static JUMBOTRON = "jumbotron";
+    static PAGE_HEADER = "page-header";
+    static POPOVER = "popover";
+    static TOOLTIP = "tooltip";
+
+    static Alert = class {
+        static ALERT = "alert";
+        static ALERT_DANGER = "alert-danger";
+        static ALERT_DISMISSIBLE = "alert-dismissible";
+        static ALERT_INFO = "alert-info";
+        static ALERT_LINK = "alert-link";
+        static ALERT_SUCCESS = "alert-success";
+        static ALERT_WARNING = "alert-warning";
+        static FADE = "fade";
+    }
+
+    
 }
+
 
 Bootstrap3.Grid = class {
     static Row = "row";
@@ -133,8 +154,60 @@ Bootstrap3.Typography = class {
     static DLHorizontal = "dl-horizontal";
 }
 
-Bootstrap3.Wells = class {
-    static Well = "well";
-    static WellLarge = "well-lg";
-    static WellSmall = "well-sm";
+Bootstrap3.Media = class {
+    static MEDIA = "media";
+    static MEDIA_BODY = "media-body";
+    static MEDIA_HEADING = "media-heading";
+    static MEDIA_LIST = "media-list";
+    static MEDIA_OBJECT = "media-object";
+}
+
+Bootstrap3.Modal = class {
+    static MODAL = "modal";
+    static MODAL_BODY = "modal-body";
+    static MODAL_CONTENT = "modal-content";
+    static MODAL_DIALOG = "modal-dialog";
+    static MODAL_FOOTER = "modal-footer";
+    static MODAL_HEADER = "modal-header";
+    static MODAL_LARGE = "modal-lg";
+    static MODAL_OPEN = "modal-open";
+    static MODAL_SMALL = "modal-sm";
+    static MODAL_TITLE = "modal-title";
+}
+
+Bootstrap3.Pager = class {
+    static NEXT = "next";
+    static PAGER = "pager";
+    static PREVIOUS = "previous";
+}
+
+Bootstrap3.Panel = class {
+    static PANEL = "panel";
+    static PANEL_BODY = "panel-body";
+    static PANEL_COLLAPSE = "panel-collapse";
+    static PANEL_DANGER = "panel-danger";
+    static PANEL_FOOTER = "panel-footer";
+    static PANEL_GROUP = "panel-group";
+    static PANEL_HEADING = "panel-heading";
+    static PANEL_INFO = "panel-info";
+    static PANEL_SUCCESS = "panel-success";
+    static PANEL_TITLE = "panel-title";
+    static PANEL_WARNING = "panel-warning";
+}
+
+Bootstrap3.ProgressBar = class {
+    static ACTIVE = "active";
+    static PROGRESS = "progress";
+    static PROGRESS_BAR = "progress-bar";
+    static PROGRESS_BAR_DANGER = "progress-bar-danger";
+    static PROGRESS_BAR_INFO = "progress-bar-info";
+    static PROGRESS_BAR_STRIPED = "progress-bar-striped";
+    static PROGRESS_BAR_SUCCESS = "progress-bar-success";
+    static PROGRESS_BAR_WARNING = "progress-bar-warning";
+}
+
+Bootstrap3.Well = class {
+    static WELL = "well";
+    static WELL_LARGE = "well-lg";
+    static WELL_SMALL = "well-sm";
 }
